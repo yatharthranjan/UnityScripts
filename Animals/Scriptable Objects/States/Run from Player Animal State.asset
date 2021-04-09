@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746f3e00a7e633748859ac2b0cd9035d, type: 3}
+  m_Name: Run from Player Animal State
+  m_EditorClassIdentifier: 
+  transitions:
+  - trueState: {fileID: 11400000, guid: 8839b38da91488b42a7957f5cc723a26, type: 2}
+    falseState: {fileID: 11400000, guid: 56795858792bc1e42b962d7a365064c7, type: 2}
+    decision: {fileID: 11400000, guid: a2a04227d672d1547b3db393ba549351, type: 2}
+  - trueState: {fileID: 11400000, guid: 745c7a132526e4f4384e99c1625537be, type: 2}
+    falseState: {fileID: 11400000, guid: 8839b38da91488b42a7957f5cc723a26, type: 2}
+    decision: {fileID: 11400000, guid: 1eae620c3d374494295dd2de9dcfe832, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 81bd489b5dc4f42449fb32b8b162574f, type: 2}

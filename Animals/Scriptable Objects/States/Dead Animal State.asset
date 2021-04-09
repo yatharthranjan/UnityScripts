@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746f3e00a7e633748859ac2b0cd9035d, type: 3}
+  m_Name: Dead Animal State
+  m_EditorClassIdentifier: 
+  transitions: []
+  actions:
+  - {fileID: 11400000, guid: 4cf8e792edce5594faf3e6e40e8070cf, type: 2}

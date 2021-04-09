@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dae3c920bc7a9049ab9b56c963745ea, type: 3}
+  m_Name: Zombie Patrol
+  m_EditorClassIdentifier: 
+  transitions:
+  - trueState: {fileID: 11400000, guid: 047da00310cdc484f828f3496e801f2e, type: 2}
+    falseState: {fileID: 11400000, guid: 2739467f5183a354d9c44d02f7d425de, type: 2}
+    decision: {fileID: 11400000, guid: 3707d84d7deeedb49a9c2ef2c45de510, type: 2}
+  - trueState: {fileID: 11400000, guid: 752af3f220cb44f4780b34844f072346, type: 2}
+    falseState: {fileID: 11400000, guid: 2739467f5183a354d9c44d02f7d425de, type: 2}
+    decision: {fileID: 11400000, guid: 015f2c95b83a3704d80a326549081ad3, type: 2}
+  - trueState: {fileID: 11400000, guid: e03d12dc8ad21214392a7a74d1db3424, type: 2}
+    falseState: {fileID: 11400000, guid: 2739467f5183a354d9c44d02f7d425de, type: 2}
+    decision: {fileID: 11400000, guid: 4df1c170183a0f4419281042caf7392d, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 4d6e2e59f0dcb3047905444b18769d01, type: 2}
